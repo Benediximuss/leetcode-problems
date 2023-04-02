@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void testRun(vector<vector<int>> (*fn)(vector<int>& nums))
+void testRun(vector<vector<int>> (*fn)(vector<int>&))
 {
     auto printList = [](vector<int> list) {
         printf("[");
