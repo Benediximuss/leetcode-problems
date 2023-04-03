@@ -91,15 +91,6 @@ int findIndex(vector<int>& nums, double target, int begin, int end)
 
 }
 
-void printList(vector<int> list) {
-    printf("[");
-    for (int i = 0; i < list.size(); i++)
-    {
-        printf("%d%c", list[i], (i < list.size() - 1) ? ',' : '\0');
-    }
-    printf("]");
-};
-
 vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success)
 {
     vector<int> output(spells.size());
