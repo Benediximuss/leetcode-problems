@@ -19,7 +19,7 @@ void testRun(int(*fn)(string, string))
 
 }
 
-int fn(string text1, string text2)
+int longestCommonSubsequence(string text1, string text2)
 {
 	vector<vector<int>> dp(text1.length()+1, vector<int>(text2.length()+1, 0));
 
@@ -36,7 +36,7 @@ int fn(string text1, string text2)
 
 int main()
 {
-	testRun(fn);
+	testRun(longestCommonSubsequence);
 
 	return 0;
 }
