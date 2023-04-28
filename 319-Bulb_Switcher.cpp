@@ -91,7 +91,6 @@ public:
     not, because only the perfect square integers have an odd number of positive divisors.
     As for counting perfect squares from 1 to n, square root of n (truncated if not integer)
     would give the number of perfect square integers in the range [1, n].
-    
 */
 class Solution3 {
 public:
