@@ -93,11 +93,6 @@ public:
 
 	int minimumTime(int n, vector<vector<int>>& relations, vector<int>& time)
 	{
-		for (int i = 1; i < n + 1; i++)
-		{
-			graph[i] = vector<int>();
-		}
-
 		for (int i = 0; i < relations.size(); i++)
 		{
 			graph[relations[i][0]].push_back(relations[i][1]);
