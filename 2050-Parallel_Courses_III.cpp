@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <map>
+#include <unordered_map>
 
 using namespace std;
 
@@ -120,7 +120,7 @@ public:
 
 private:
 
-	map<int, vector<int>> graph;
+	unordered_map<int, vector<int>> graph;
 	vector<int> memo;
 
 };
